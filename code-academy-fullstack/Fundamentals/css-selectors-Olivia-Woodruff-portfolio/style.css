@@ -1,0 +1,22 @@
+.header {
+    background-color: cornflowerblue;
+    text-align: center;
+  }
+  
+  .about-me {
+    font-size: 20px;
+    opacity: 50%;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  h1 {
+    color: azure;
+  }
+  
+  body {
+    font-family: georgia;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210619/pngtree-colorful-watercolor-splash-company-profile-image_730901.jpg');
+  }
