@@ -1,0 +1,30 @@
+body {
+    background-color: #FF76CE;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: white;
+  }
+  
+  h1 {
+    background-color: #FDFFC2;
+    color: #FF76CE;;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #94FFD8;
+    text-align: center;
+  }
+  
+  th {
+    background-color: white;
+    color: #FF76CE;
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Adds a border around table headers and data cells */
+    padding: 8px; /* Adds some padding to the cells */
+  }
+  
+  .tags {
+    font-family: 'Courier New', Courier, monospace; 
+  }
