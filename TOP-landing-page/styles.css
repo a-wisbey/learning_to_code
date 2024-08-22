@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+}
+
+.section1 {
+    display: flex;
+    border: 5px solid #5c92fd;
+    flex-direction: column;
+}
+
+.section1-nav { 
+    background-color: #1f2937;
+    color: #e5e7eb; /* TODO: make the header links this colour */
+    border: 5px solid #ee0404; 
+    display: flex;   
+}
+
+.section1-body {
+    background-color: #1f2937;
+    color: #e5e7eb; /* TODO: make the header links this colour */
+    border: 5px solid #04ee5a; 
+    display: flex;   
+}
+/*
+.nav-links.1.2.3{
+    text-decoration: none; 
+    color: #e5e7eb;
+}
+*/
+.navbar {
+    display: flex;
+    
+}
+
+.nav-links-parent {
+    /* display: inline-flex; */
+   /* flex-direction: row; */
+   display: flex;
+    border: 5px solid #6d04ee; 
+}
+
+.nav-link {
+    text-decoration: none; 
+    color: #e5e7eb;
+    border: 5px solid #04ee5a; 
+    /* display: inline-flex; */ 
+   
+}
+
+.section1-h1 { 
+    font-size: 48px;
+    color: #F9FAF8; /* not working??? */
+ 
+   /* font-weight: bold; */
+   /* TODO: make the header text extra bold */
+}
+
+
+.top-text {
+    border: 5px solid #ee04e6; 
+    display: flex;   
+}
+
+ul {
+  list-style-type: none; /* no bullet points*/
+}
+
