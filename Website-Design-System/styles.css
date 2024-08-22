@@ -1,0 +1,142 @@
+h1 {
+    Font-weight: 700;
+    Font-size: 18px;
+    Font-family: Nunito Sans;
+}
+
+h2 {
+    Font-weight: 400;
+    Font-size: 16px;
+    Font-family: "Open Sans", sans-serif;
+}
+
+p {
+   Font-weight: 400;
+   Font-size: 14px;
+   Font-family: Segoe UI;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+ /* background colours */
+.colour-panel-background-1 {
+    background-color: #fff3cc;
+    color: #333333;
+    display: inline-block;
+    width: 32%;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.colour-panel-background-2 {
+    background-color: #154794cc;
+    color: white;
+    display: inline-block;
+    width: 32%;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+ /* text colours */
+.font-container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.colour-panel-text-1 {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    width: 32%;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.colour-panel-text-2 {
+    background-color: #0066cc;
+    color: white;
+    border: 2px solid #0066cc;
+    display: inline-block;
+    width: 32%;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.colour-panel-text-3 {
+    background-color: #a04020;
+    color: black;
+    border: 2px solid #a04020;
+    display: inline-block;
+    width: 32%;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.colour-panel-text-4 {
+    background-color: #333333;
+    color: white;
+    border: 2px solid #333333;
+    display: inline-block;
+    width: 32%;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.colour-panel-text-5 {
+    background-color: #000000;
+    color: white;
+    border: 2px solid #000000;
+    display: inline-block;
+    width: 32%;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+ /* fonts */
+
+.nunito {
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 18px;
+}
+
+.nunito .heading {
+    font-size: 18px;
+    text-decoration: underline;
+}
+.nunito .bold {
+    font-weight: 700;
+}
+
+.nunito .itallic {
+    font-style: italic;
+}
+
+.os {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+.os .heading {
+    font-size: 16px;
+    text-decoration: underline;
+}
+.os .bold {
+    font-weight: 700;
+}
+
+.os .itallic {
+    font-style: italic;
+}
+
+p .p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

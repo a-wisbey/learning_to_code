@@ -1,0 +1,158 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* The navigation bar */
+nav {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    /* position: fixed; /* Set the navbar to fixed position */
+    /* top: 0; /* Position the navbar at the top of the page */ 
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: seashell;
+    margin-right: 20px; /* add space between the links */
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav a:hover { /* Change background on mouse-over */
+    color: greenyellow;
+}
+
+nav a:active {
+    color: darkgreen;
+}
+
+.logo-img {
+    margin-left: 10px;
+    margin-top: 9.5px;
+    margin-bottom: 9.5px;
+    height: 50px;
+}
+
+/* Main content */
+.main {
+    padding-top: 70px; /* Add a top margin to avoid content overlay */
+    opacity: 0.9;
+}
+
+/* Section 1 - Mission */
+.mission {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    background-image: url("./img/img-mission-background.jpg");
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Center the background image */
+    max-width: 1200px; /* Max width for responsiveness */
+    height: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mission-text {
+    background-color: black;
+    padding: 20px;
+    width: 1200px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Section 2 - Featured Tea */
+.featured-tea {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-tea-title {
+    text-align: center;
+}
+
+.featured-tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-tea-container figure {
+    flex: 1 1 30%; /* Make each figure take up about 30% of the container width */
+    margin: 10px; /* Add margin between figures */
+    max-width: 300px; /* Ensure the figures don't grow too large */
+    text-align: center;
+}
+
+.featured-tea-img {
+    width: 100%; /* Make the images take up the full width of the figure */
+    height: auto; /* Maintain aspect ratio */
+}
+
+figure figcaption {
+    margin-top: 10px; /* Add space between the image and the caption */
+}
+
+figure figcaption h4 {
+    margin: 0; /* remove default margin */
+}
+
+/* Section 3 - Locations */
+
+.locations {
+    background-color: green; /* fall-back in case the image doesn't load, the user will still be abel to read the white text */
+    background-image: url("./img/img-locations-background.jpg");
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Center the background image */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Max width for responsiveness */
+    height: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-text {
+    color: seashell;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: none;
+}
+
+.location-box-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.location-box {
+    max-width: 300px;
+    margin: 15px 40px;
+    flex: 1 1 30%;
+    margin: 10px;
+    background-color: black;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    
+}

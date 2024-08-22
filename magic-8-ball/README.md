@@ -1,0 +1,1 @@
+This project is part of my first JavaScript practice. The aim being to create a 'magic 8 ball' that generates random responses.
