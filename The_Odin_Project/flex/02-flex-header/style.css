@@ -1,0 +1,57 @@
+/* TO DO:
+- look at justifying the items/content within the left-items and right-items classes
+- check if spacing between using a px amount is correct, or if there is a flex wording I need to use
+*/
+
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+ display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  /* margin: auto; - does nothing */
+  /* padding: auto; - does nothing */
+  /* justify-content: space-between; - no changes */
+  /* flex-direction: row; - row is default anyawy */
+  /* justify-items: space-around; - doesnt change anything */
+  /* align-items: space-between;- doesnt change anything */
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
+
+.left-links {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start; - no changes */
+  /* justify-items: flex-start; - doesnt work */
+}
+
+.right-links {
+  display: flex;
+  align-items: center; /* alignment within the header div */
+  /*justify-content: space-around; - no changes */
+  /* justify-items: stretch; - does nothing*/
+}
+

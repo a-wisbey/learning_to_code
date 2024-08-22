@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+  height: 100vh;
+}
+body {
+  height: 100vh; /* tried changing to min-height, but made no difference to the footer */
+  margin: 0;
+  overflow: hidden;     /*  Tried removing to see if it helps the footer stick to the bottom - no difference */
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; no visible change when adding or removing this */
+}
+
+img {
+  width: 600px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  color: black;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 10px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /*  flex-grow: 1; 
+  flex-shrink: 0;
+  flex-basis: auto; */
+  flex: 1 0 auto;
+  /*  margin-top: auto;  makes no visible difference being added */
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.footer {
+background-color: #eeeeee;
+display: flex;
+justify-content: space-between;
+/*  margin-bottom: auto;  makes no vidible difference being added */
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 20px;
+}
+
+.left-links {
+  padding-left: 20px; 
+}
+
+.right-links {
+  padding-right: 20px;
+}
+
