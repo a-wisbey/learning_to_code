@@ -1,6 +1,6 @@
 # 🚀 Welcome to the Mega Repo of Code Chaos!  
 👋🏻 **Hey there, brave soul!**  
-So, if you’ve just stumbled upon this repository and noticed 100+ initial commits and a sudden explosion of folders all at once — don't worry, I haven't been possessed by a caffeine-fueled coding demon.  
+So, if you’ve just stumbled upon this repository and noticed 100+ initial commits and a sudden explosion of folders all at once — don't worry, I haven't been possessed by a caffeine-fuelled coding demon.  
   
 Instead, I decided to Marie Kondo my GitHub and consolidate all my scattered little code experiments, practice projects, and reference snippets into one mighty repository: **learning_to_code**  
   
