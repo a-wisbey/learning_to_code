@@ -1,0 +1,20 @@
+.paragraph {
+    background-color: lightpink;
+    font-family: 'Verdana', 'Dejavu Sans', 'sans-serif';
+}
+
+#id2 {
+    color: blue;
+    font-size: 36px;
+}
+
+.class3 {
+    font-size: 24px;
+}
+
+#id4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+

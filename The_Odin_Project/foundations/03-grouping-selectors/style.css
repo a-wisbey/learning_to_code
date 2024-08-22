@@ -1,0 +1,19 @@
+/** **The first element**: a black background, white text color, and a bold font weight
+* **The second element**: a yellow background
+* **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback*/
+
+.element-one {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.element-two {
+    background-color: yellow;
+}
+
+.element-one,
+.element-two {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
